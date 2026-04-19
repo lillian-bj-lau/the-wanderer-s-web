@@ -23,7 +23,7 @@
     --popover-foreground: 28 18% 22%;
 
     /* Primary: deep forest green — high contrast accent */
-    --primary: 118 21% 48%;
+    --primary: 180 25% 42%;
     --primary-foreground: 38 30% 95%;
 
     /* Secondary: jewel-toned forest */
@@ -42,7 +42,7 @@
 
     --border: 28 15% 75%;
     --input: 28 15% 75%;
-    --ring: 118 21% 48%;
+    --ring: 180 25% 42%;
 
     --radius: 0.25rem;
 
@@ -52,7 +52,7 @@
     --parchment-deep: 38 25% 88%;
     --gold: 42 70% 52%;
     --gold-deep: 38 60% 38%;
-    --oxblood: 118 21% 48%;
+    --oxblood: 180 25% 42%;
     --forest: 158 38% 22%;
     --mist: 28 12% 60%;
 
