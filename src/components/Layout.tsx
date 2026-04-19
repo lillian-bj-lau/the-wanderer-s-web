@@ -1,6 +1,7 @@
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import SigilBackdrop from "@/components/SigilBackdrop";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const navItems = [
   { to: "/", label: "Home", glyph: "I" },
@@ -31,23 +32,26 @@ const Layout = () => {
             </span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
-            {navItems.map((item) => (
-              <NavLink
-                key={item.to}
-                to={item.to}
-                end={item.to === "/"}
-                className={({ isActive }) =>
-                  `link-underline text-sm tracking-wide transition-colors ${
-                    isActive ? "text-accent" : "text-foreground/80 hover:text-foreground"
-                  }`
-                }
-              >
-                <span className="tengwar-flourish mr-2 text-[10px]">{item.glyph}</span>
-                {item.label}
-              </NavLink>
-            ))}
-          </nav>
+          <div className="flex items-center gap-6">
+            <nav className="hidden md:flex items-center gap-8">
+              {navItems.map((item) => (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  end={item.to === "/"}
+                  className={({ isActive }) =>
+                    `link-underline text-sm tracking-wide transition-colors ${
+                      isActive ? "text-accent" : "text-foreground/80 hover:text-foreground"
+                    }`
+                  }
+                >
+                  <span className="tengwar-flourish mr-2 text-[10px]">{item.glyph}</span>
+                  {item.label}
+                </NavLink>
+              ))}
+            </nav>
+            <ThemeToggle />
+          </div>
         </div>
 
         {/* Mobile nav */}
