@@ -64,8 +64,8 @@ const Home = () => {
           </div>
 
           <div className="mt-12 flex flex-wrap gap-6 text-sm">
-            <Link to="/projects" className="link-underline inline-flex items-center gap-2 text-foreground/80">
-              See current projects <ArrowRight className="h-3.5 w-3.5" />
+            <Link to="/publications" className="link-underline inline-flex items-center gap-2 text-foreground/80">
+              See publications and prezzies <ArrowRight className="h-3.5 w-3.5" />
             </Link>
             <Link to="/currently" className="link-underline inline-flex items-center gap-2 text-foreground/80">
               What I'm reading & watching <ArrowRight className="h-3.5 w-3.5" />

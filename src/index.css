@@ -14,47 +14,47 @@
   :root {
     /* Grounding neutrals: parchment + ink */
     --background: 38 30% 95%;            /* warm parchment */
-    --foreground: 220 25% 12%;           /* deep ink */
+    --foreground: 28 18% 22%;            /* warm brown-grey ink */
 
     --card: 38 35% 97%;
-    --card-foreground: 220 25% 12%;
+    --card-foreground: 28 18% 22%;
 
     --popover: 38 35% 97%;
-    --popover-foreground: 220 25% 12%;
+    --popover-foreground: 28 18% 22%;
 
-    /* Primary: rich oxblood — high contrast accent */
-    --primary: 358 65% 38%;
+    /* Primary: deep forest green — high contrast accent */
+    --primary: 152 45% 28%;
     --primary-foreground: 38 30% 95%;
 
     /* Secondary: jewel-toned forest */
     --secondary: 158 38% 22%;
     --secondary-foreground: 38 30% 95%;
 
-    --muted: 38 20% 88%;
-    --muted-foreground: 220 12% 38%;
+    --muted: 30 18% 86%;
+    --muted-foreground: 28 12% 38%;
 
     /* Accent: burnished gold */
     --accent: 42 70% 52%;
-    --accent-foreground: 220 25% 12%;
+    --accent-foreground: 28 18% 22%;
 
-    --destructive: 0 75% 45%;
+    --destructive: 0 60% 40%;
     --destructive-foreground: 38 30% 95%;
 
-    --border: 220 15% 80%;
-    --input: 220 15% 80%;
-    --ring: 358 65% 38%;
+    --border: 28 15% 75%;
+    --input: 28 15% 75%;
+    --ring: 152 45% 28%;
 
     --radius: 0.25rem;
 
     /* Custom tokens */
-    --ink: 220 28% 10%;
+    --ink: 28 20% 18%;
     --parchment: 38 35% 95%;
     --parchment-deep: 38 25% 88%;
     --gold: 42 70% 52%;
     --gold-deep: 38 60% 38%;
-    --oxblood: 358 65% 38%;
+    --oxblood: 152 45% 28%;
     --forest: 158 38% 22%;
-    --mist: 220 15% 65%;
+    --mist: 28 12% 60%;
 
     --gradient-parchment: linear-gradient(180deg, hsl(38 35% 96%) 0%, hsl(38 25% 90%) 100%);
     --gradient-sigil: radial-gradient(circle at 50% 50%, hsl(var(--gold) / 0.15), transparent 70%);
